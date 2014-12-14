@@ -1,0 +1,10 @@
+{
+  "name": "annotatewithme-api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "chance": "^0.7.0",
+    "express": "^4.10.6",
+    "nano": "^6.0.2"
+  }
+}
