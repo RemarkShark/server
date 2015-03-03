@@ -7,7 +7,7 @@
 var express = require('express'); 		// call express
 var app = express(); 				// define our app using express
 var bodyParser = require('body-parser');
-var nano = require('nano')('http://localhost:5984');
+var nano = require('nano')(process.env.COUCH_URL || 'http://localhost:5984');
 var chance = new (require('chance'));
 
 // configure app to use bodyParser()
